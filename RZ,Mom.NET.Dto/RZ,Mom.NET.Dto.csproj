@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>RZ_Mom.NET.Dto</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Flurl" Version="3.0.7" />
+    <PackageReference Include="Flurl.Http" Version="4.0.0-pre3" />
+    <PackageReference Include="Flurl.Http.Signed" Version="3.2.4" />
+    <PackageReference Include="Flurl.Signed" Version="3.0.6" />
+    <PackageReference Include="Mapster" Version="7.4.0-pre06" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RZ.Mom.NET.Core\RZ.Mom.NET.Core.csproj" />
+    <ProjectReference Include="..\RZ.Mom.NET.Web.Core\RZ.Mom.NET.Web.Core.csproj" />
+  </ItemGroup>
+
+</Project>
